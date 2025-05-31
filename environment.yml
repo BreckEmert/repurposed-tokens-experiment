@@ -1,0 +1,25 @@
+name: repurposed-tokens
+dependencies:
+  - ipywidgets
+  - jupyterlab
+  - python=3.10
+  - pytorch=2.5.1
+  - pip
+  - pip:
+    - accelerate
+    - bitsandbytes
+    - blobfile
+    - datasets
+    - evaluate
+    - huggingface_hub[hf_xet]
+    - ipython
+    - jupyterlab
+    - matplotlib
+    - polars
+    - rich
+    - sentencepiece
+    - scikit-learn
+    - tiktoken
+    - transformers
+    - tqdm
+    - wandb
